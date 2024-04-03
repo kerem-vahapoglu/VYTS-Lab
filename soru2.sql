@@ -1,0 +1,25 @@
+﻿INSERT INTO birimler(birim_id,birim_ad) VALUES (1,'Yazýlým');
+INSERT INTO birimler(birim_id,birim_ad) VALUES (2,'Donaným');
+INSERT INTO birimler(birim_id,birim_ad) VALUES (3,'Güvenlik');
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(1,'Ýsmail','Ýþeri',100000,'2014-02-20',1);
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(2,'Hami','Satýlmýþ',80000,'2014-06-11',1);
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(3,'Durmuþ','Þahin',300000,'2014-02-20',2);
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(4,'Kaðan','Yazar',500000,'2014-02-20',3);
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(5,'Meryem','Soysaldý',500000,'2014-06-11',3);
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_i
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(6,'Duygu','Akþehir',200000,'2014-06-11',2);
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(7,'Kübra','Seyhan',75000,'2014-01-20',1);
+INSERT INTO calisanlar(calisan_id,ad,soyad,maas,katilmaTarihi,calisan_birim_id) Values(8,'Gülcan','Yýldýz',90000,'2014-04-11',3);
+INSERT INTO ikramiye(ikramiye_calisan_id,ikramiye_ucret,ikramiye_tarih) Values(1,5000,'2016-02-20');
+INSERT INTO ikramiye(ikramiye_calisan_id,ikramiye_ucret,ikramiye_tarih) Values(2,3000,'2016-06-11');
+INSERT INTO ikramiye(ikramiye_calisan_id,ikramiye_ucret,ikramiye_tarih) Values(3,4000,'2016-02-20');
+INSERT INTO ikramiye(ikramiye_calisan_id,ikramiye_ucret,ikramiye_tarih) Values(1,4500,'2016-02-20');
+INSERT INTO ikramiye(ikramiye_calisan_id,ikramiye_ucret,ikramiye_tarih) Values(2,3500,'2016-06-11');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(1,'Yönetici','2016-02-20');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(2,'Personel','2016-06-11');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(8,'Personel','2016-06-11');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(5,'Müdür','2016-06-11');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(4,'Yönetici Yardýmcýsý','2016-06-11');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(7,'Personel','2016-06-11');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(6,'Takým Lideri','2016-06-11');
+INSERT INTO unvan(unvan_calisan_id,unvan_calisan,unvan_tarih) Values(3,'Takým Lideri','2016-06-11');
